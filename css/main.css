@@ -37,3 +37,7 @@ body::selection{
     justify-content: center;
 
 }
+
+.a-card:hover{
+    background-color: crimson;
+}
