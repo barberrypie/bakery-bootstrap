@@ -1,3 +1,8 @@
+a .card-title{
+    text-decoration: none;
+    color: rgba(0,0,0,.7);
+}
+
 .dropdown-item:active{
     background-color: #560013;
 }
@@ -37,7 +42,6 @@ body::selection{
     justify-content: center;
 
 }
-
 .a-card:hover{
     background-color: crimson;
 }
