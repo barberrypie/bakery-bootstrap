@@ -1,7 +1,73 @@
 <template>
   <div class="home">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d895.7076476405354!2d36.63399346728536!3d50.58170392716581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41266a24e49f2d11%3A0x4e5da6e84b62b1cc!2z0JzQuNGF0LDQudC70L7QstGB0LrQvtC1INGILiwgMjMsIDIwMdCSLCDQkdC10LvQs9C-0YDQvtC0LCDQkdC10LvQs9C-0YDQvtC00YHQutCw0Y8g0L7QsdC7LiwgMzA4MDA2!5e0!3m2!1sru!2sru!4v1622102164128!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <div style="border-bottom:2px solid #F5F5F5">
+      <h2 class = " mx-3 mb-3" style="color: rgba(0,0,0,.7)">Каталог товаров</h2>
+    </div>
+    <!-- LG CATALOG d-none d-lg-block-->
+    <div class="cards row mt-3">
+      <Category></Category>
+      <div class="col-md-4">
+        <a class='a-card' href="#">
+          <div class="card p-3 mb-5 bg-body rounded m-auto" style="width: 18rem;">
+            <img src="img/svarnye.png" class="card-img-top shadow-sm rounded" alt="..." width="250" height="250">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center">Сварные формы</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <router-link class='a-card' :to="{name:'Confectionery'}">
+          <div class="card p-3 mb-5 bg-body rounded m-auto" style="width: 18rem;">
+            <img src="img/konditer.png" class="card-img-top shadow-sm rounded" alt="..." width="250" height="250">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center">Кондитерские формы</h5>
+            </div>
+          </div>
+          </router-link>
+      </div>
+      <div class="col-md-4">
+        <a class='a-card' href="#">
+          <div class="card p-3 mb-5 bg-body rounded m-auto" style="width: 18rem;">
+            <img src="img/protivni.png" class="card-img-top shadow-sm rounded" alt="..." width="250" height="250">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center">Противни для выпечки</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a class='a-card' href="#">
+          <div class="card p-3 mb-5 bg-body rounded m-auto" style="width: 18rem;">
+            <img src="img/telezh.png" class="card-img-top shadow-sm rounded" alt="..." width="250" height="250">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center">Тележки для печей</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a class='a-card' href="#">
+          <div class="card p-3 mb-5 bg-body rounded m-auto" style="width: 18rem;">
+            <img src="img/press.png" class="card-img-top shadow-sm rounded" alt="..." width="250" height="250">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center">Пресс-формы</h5>
+              <!-- <h6 class="card-subtitle mb-2 text-muted">150х200х50</h6> -->
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+
   </div>
+
 </template>
 
 
+<script>
+import Category from "../components/Category";
+export default {
+  components: {Category}
+}
+</script>

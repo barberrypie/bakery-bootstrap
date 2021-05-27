@@ -3,20 +3,20 @@
     <header >
       <nav class="navbar navbar-expand-md navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="img/lg.svg" width="80" height="80" alt="logo" class="rounded float-start"/></a>
+          <router-link class="navbar-brand" :to="{name:'Home'}"><img src="img/lg.svg" width="80" height="80" alt="logo" class="rounded float-start"/></router-link>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Каталог
-                </a>
+                <router-link class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" :to="{name:'Home'}">
+                Каталог
+              </router-link>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <li><a class="dropdown-item" href="#">Формы хлебопекарные литые</a></li>
                   <li><a class="dropdown-item" href="#">Формы хлебопекарные сварные</a></li>
-                  <li><a class="dropdown-item" href="#">Кондитерские формы</a></li>
+                  <li><router-link class="dropdown-item p-0 m-0" :to="{name:'Confectionery'}">Кондитерские формы</router-link></li>
                   <li><a class="dropdown-item" href="#">Противни для выпечки</a></li>
                   <li><a class="dropdown-item" href="#">Тележки и люльки для печей</a></li>
                   <li><a class="dropdown-item" href="#">Пресс-формы для ветчин и мяса</a></li>
@@ -83,18 +83,20 @@
                 </button>
               </div>
               <div class="row p-3 a-side">
-                <button class="a-side-button ">
-                  <div class ="container m-0 p-0">
-                    <div class ="row" style="width: inherit;">
-                      <div class="col-md-3 p-0 mt-2">
-                        <img src="img/cake1.png"width="25px" height="25px">
+                  <router-link :to="{name:'Confectionery'}">
+                    <button class="a-side-button">
+                      <div class ="container m-0 p-0">
+                        <div class ="row" style="width: inherit;">
+                          <div class="col-md-3 p-0 mt-2">
+                            <img src="img/cake1.png"width="25px" height="25px">
+                          </div>
+                          <div class="col-md-9 p-0 m-0" style="text-align: left">
+                            Кондитерские формы
+                          </div>
+                        </div>
                       </div>
-                      <div class="col-md-9 p-0 m-0" style="text-align: left">
-                        Кондитерские формы
-                      </div>
-                    </div>
-                  </div>
-                </button>
+                    </button>
+                  </router-link>
               </div>
               <div class="row p-3 a-side">
                 <button class="a-side-button ">

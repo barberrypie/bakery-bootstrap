@@ -1,7 +1,7 @@
 <template>
   <div>
       <div style="border-bottom:2px solid #F5F5F5">
-          <h2 class = " mx-3 mb-3" style="color: rgba(0,0,0,.7)"> О компании</h2>
+          <h2 class = " mx-3 mb-3" style="color: rgba(0,0,0,.7)">О компании</h2>
       </div>
     <h3 class = "mt-1 mx-3 mb-3" style="color: rgba(0,0,0,.7)">ООО «ФОРМА» поставляет стандартные и под заказ:</h3>
       <ul style=" color: rgba(0,0,0,.7); ">

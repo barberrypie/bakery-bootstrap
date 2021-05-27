@@ -39,3 +39,23 @@ a:hover{
 .del:hover{
     color: #560013;
 }
+
+dl {
+    display: grid;
+    grid-template-columns: minmax(min-content, 1fr) auto;  /* первый столбец растянуть по всей свободной ширине */
+}
+dt,
+dd {
+    padding: .5em 0;
+    border-top: 1px solid rgba(0,0,0,.12);
+    text-align: left;
+}
+
+dd {
+    margin: 0;
+    margin-right: 20px;
+}
+
+dt{
+    margin-left: 20px;
+}
