@@ -16,7 +16,7 @@
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <li><a class="dropdown-item" href="#">Формы хлебопекарные литые</a></li>
                   <li><a class="dropdown-item" href="#">Формы хлебопекарные сварные</a></li>
-                  <li><router-link class="dropdown-item p-0 m-0" :to="{name:'Confectionery'}">Кондитерские формы</router-link></li>
+                  <li><router-link class="dropdown-item" :to="{name:'Confectionery'}">Кондитерские формы</router-link></li>
                   <li><a class="dropdown-item" href="#">Противни для выпечки</a></li>
                   <li><a class="dropdown-item" href="#">Тележки и люльки для печей</a></li>
                   <li><a class="dropdown-item" href="#">Пресс-формы для ветчин и мяса</a></li>
@@ -83,7 +83,7 @@
                 </button>
               </div>
               <div class="row p-3 a-side">
-                  <router-link :to="{name:'Confectionery'}">
+                  <router-link :to="{name:'Confectionery'}" class="p-0 m-0">
                     <button class="a-side-button">
                       <div class ="container m-0 p-0">
                         <div class ="row" style="width: inherit;">
