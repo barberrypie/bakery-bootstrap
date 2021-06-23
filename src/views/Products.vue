@@ -24,7 +24,7 @@ export default {
   created() {
     const id = this.$route.params.id
     console.log(id)
-    axios('http://api.ck26904.tmweb.ru/api/Prod/' + id, {method: 'GET'})
+    axios('https://api.ck26904.tmweb.ru/api/Prod/' + id, {method: 'GET'})
         .then((response) => this.items = response.data)
   }
 }

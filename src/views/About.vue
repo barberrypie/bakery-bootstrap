@@ -56,7 +56,7 @@
       <li>Телефон:</li>
       <li style="color: #560013;">+7-961-173-23-93</li>
       <li>E-mail:</li>
-      <li style="color: #560013;">forma2393@yandex.ru</li>
+      <li style="color: #560013;">forma2393@mail.ru</li>
     </ul>
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1266.7219039452466!2d36.6339935!3d50.5817039!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41266a24e49f2d11%3A0xf81dbacedc17e25e!2z0JzQuNGF0LDQudC70L7QstGB0LrQvtC1INGILiwgMjMsINCR0LXQu9Cz0L7RgNC-0LQsINCR0LXQu9Cz0L7RgNC-0LTRgdC60LDRjyDQvtCx0LsuLCAzMDgwMDY!5e0!3m2!1sru!2sru!4v1622113056398!5m2!1sru!2sru" width="100%" height="400px" class = "mb-3 mt-2 shadow" style="border:0; border-radius: 20px;" allowfullscreen="" loading="lazy"></iframe>
    <!-- <h1 class = "mt-5 mx-3 mb-3" style="color: rgba(0,0,0,.7); ">ОТГРУЗКА ТРАНСПОРТНЫМИ<br> КОМПАНИЯМИ<span style="color: #560013; font-weight: bolder"><br>ПО ВАШЕМУ ВЫБОРУ </span> </h1>

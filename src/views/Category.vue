@@ -23,8 +23,17 @@ export default {
   created() {
     const id = this.$route.params.id
     console.log(id)
-    axios('http://api.ck26904.tmweb.ru/api/SubCat/' + id, {method: 'GET'})
+    axios('https://api.ck26904.tmweb.ru/api/SubCat/' + id, {method: 'GET'})
         .then((response) => this.items = response.data)
+  },
+  watch: {
+    '$route.params.id': {
+      immediate: true,
+      handler() {
+        axios('https://api.ck26904.tmweb.ru/api/SubCat/' + this.$route.params.id, {method: 'GET'})
+            .then((response) => this.items = response.data)
+      },
+    },
   }
 }
 </script>
