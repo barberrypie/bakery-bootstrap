@@ -51,18 +51,16 @@ dd {
     text-align: left;
 }
 
-dd {
-    margin: 0;
-    margin-right: 20px;
-}
 
-dt{
-    margin-left: 20px;
-}
+
 .not-found img{
     height: 250px;
     width: 250px;
     margin-left:30%;
     padding: 30px;
 
+}
+.parameters{
+    display: flex;
+    align-items: flex-end;
 }

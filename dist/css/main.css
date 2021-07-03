@@ -1,0 +1,46 @@
+
+.dropdown-item:active{
+    background-color: #560013;
+}
+body::selection{
+    background: #560013;
+}
+
+.phone a{
+    color: rgba(0,0,0,.7);
+    margin: 0;
+    padding: 0;
+}
+.phone a:visited{
+    color: rgba(0,0,0,.7);
+    margin: 0;
+    padding: 0;
+}
+.phone a:link{
+    color: rgba(0,0,0,.7);
+    margin: 0;
+    padding: 0;
+}
+.phone a:active{
+    color: rgba(0,0,0,.7);
+    margin: 0;
+    padding: 0;
+}
+
+.phone a:hover{
+    color: #560013;
+    font-weight: 500;
+}
+
+.a-side{
+    border-bottom: solid 1px white;
+    justify-content: center;
+
+
+}
+.a-side-top{
+    border-top: solid 1px white;
+}
+.a-card:hover{
+    background-color: crimson;
+}
