@@ -7,7 +7,7 @@
     <div class="col-md-7 p-0 text-center">
       <dl class="p-0 mb-4" style="list-style: none; color: rgba(0,0,0,.7); font-size: larger;">
         <div class="container">
-          <div class="row">
+          <div class="row marg">
             <div class="col-md-6 p-0 m-0">
               <dt v-if="item.size">Размер одной формы:</dt>
             </div>
@@ -15,7 +15,7 @@
               <dd v-if="item.size" class="parameters">{{item.size}}</dd>
             </div>
           </div>
-          <div class="row">
+          <div class="row marg">
             <div class="col-md-6 p-0">
               <dt v-if="item.height">Высота:</dt>
             </div>
@@ -23,7 +23,7 @@
               <dd v-if="item.height" class="parameters">{{item.height}}</dd>
             </div>
           </div>
-          <div class="row">
+          <div class="row marg">
             <div class="col-md-6 p-0">
               <dt v-if="item.product_weight">Масса готового изделия:</dt>
             </div>
@@ -31,7 +31,7 @@
               <dd v-if="item.product_weight" class="parameters">{{item.product_weight}}</dd>
             </div>
           </div>
-          <div class="row">
+          <div class="row marg">
             <div class="col-md-6 p-0 m-0">
               <dt v-if="item.material">Материал:</dt>
             </div>
@@ -39,7 +39,7 @@
               <dd v-if="item.material" class="parameters">{{item.material}}</dd>
             </div>
           </div>
-          <div class="row">
+          <div class="row marg">
             <div class="col-md-6 p-0">
               <dt v-if="item.dimension">Размер:</dt>
             </div>
@@ -47,7 +47,7 @@
               <dd v-if="item.dimension" class="parameters">{{item.dimension}}</dd>
             </div>
           </div>
-          <div class="row">
+          <div class="row marg">
             <div class="col-md-6 p-0">
               <dt v-if="item.st_dimens">Стандартные размеры:</dt>
             </div>
@@ -55,21 +55,21 @@
               <dd v-if="item.st_dimens" class="parameters">{{item.st_dimens}}</dd>
             </div>
           </div>
-          <div class="row">
-            <div v-if="item.comments_" class="col-md parameters p-0 ">
+          <div class="row marg">
+            <div v-if="item.comments_" class="col-md parameters p-0 mb-3" style = "text-align: left">
               {{item.comments_}}
             </div>
 
           </div>
-          <div class="row">
+          <div class="row marg">
             <div class="col-md-6 p-0">
-              <dt v-if="item.docs">Заполните анкету</dt>
+              <dt v-if="item.docs">Заполните техническое задание</dt>
             </div>
             <div class="col-md-6 p-0">
               <dd v-if="item.docs"><a href="/docs/тележки.xlsx"><img src ="/img/docs.png" style="width: 25px; height: 25px" alt="Документ"/></a></dd>
             </div>
           </div>
-          <div class="row">
+          <div class="row marg">
             <div class="col-md-6 p-0">
               <dt v-if="item.thickness">Толщина материала:</dt>
             </div>
@@ -77,7 +77,7 @@
               <dd v-if="item.thickness" class="parameters">{{item.thickness}}</dd>
             </div>
           </div>
-          <div class="row">
+          <div class="row marg">
             <div class="col-md-6 p-0">
               <dt v-if="item.bundle_length">Длина связки:</dt>
             </div>
@@ -85,7 +85,7 @@
               <dd v-if="item.bundle_length " class="parameters">{{item.bundle_length}}</dd>
             </div>
           </div>
-          <div class="row">
+          <div class="row marg">
             <div class="col-md-6 p-0">
               <dt v-if="item.form_weight">Масса формы:</dt>
             </div>

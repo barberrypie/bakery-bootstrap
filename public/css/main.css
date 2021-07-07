@@ -44,3 +44,7 @@ body::selection{
 .a-card:hover{
     background-color: crimson;
 }
+.marg{
+    margin-right: 5%;
+    margin-left: 5%;
+}
