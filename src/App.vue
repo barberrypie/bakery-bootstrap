@@ -20,7 +20,7 @@
                   <li><router-link class="dropdown-item" :to="{name:'Products', params:{id:'Trays'}}">Противни для выпечки</router-link></li>
                   <li><router-link class="dropdown-item" :to="{name:'Products', params:{id:'Trolleys'}}">Тележки и люльки для печей</router-link></li>
                   <li><router-link class="dropdown-item" :to="{name:'Category', params:{id:'MoldPress'}}">Пресс-формы для ветчин и мяса</router-link></li>
-                  <li><router-link class="dropdown-item" :to="{name:'Category', params:{id:'Mixers'}}">Тестомесы</router-link></li>
+                  <li><router-link class="dropdown-item" :to="{name:'Products', params:{id:'Mixers'}}">Тестомесы</router-link></li>
                   <li><router-link class="dropdown-item" :to="{name:'Category', params:{id:'Baskets'}}">Корзины для расстойки из ротанга</router-link></li>
                 </ul>
               </li>
@@ -178,7 +178,7 @@
                 </router-link>
               </div>
               <div class="row p-3 a-side">
-                <router-link class="p-0 m-0" :to="{name:'Category', params:{id:'Mixers'}}">
+                <router-link class="p-0 m-0" :to="{name:'Products', params:{id:'Mixers'}}">
                   <button class="a-side-button ">
                     <div class ="container m-0 p-0">
                       <div class ="row" style="width: inherit;">

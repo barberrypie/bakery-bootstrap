@@ -87,14 +87,85 @@
           </div>
           <div class="row marg">
             <div class="col-md-6 p-0">
-              <dt v-if="item.form_weight">Масса формы:</dt>
+              <dt v-if="item.mix_weight">Масса:</dt>
             </div>
             <div class="col-md-6 p-0">
-              <dd v-if="item.form_weight" class="parameters">{{item.form_weight}}</dd>
+              <dd v-if="item.mix_weight" class="parameters">{{item.mix_weight}}</dd>
+            </div>
+          </div>
+          <div class="row marg">
+            <div class="col-md-6 p-0">
+              <dt v-if="item.mix_power_consumption">Потребляемая мощность:</dt>
+            </div>
+            <div class="col-md-6 p-0">
+              <dd v-if="item.mix_power_consumption" class="parameters">{{item.mix_power_consumption}}</dd>
+            </div>
+          </div>
+          <div class="row marg">
+            <div class="col-md-6 p-0">
+              <dt v-if="item.mix_productivity">Производительность:</dt>
+            </div>
+            <div class="col-md-6 p-0">
+              <dd v-if="item.mix_productivity" class="parameters">{{item.mix_productivity}}</dd>
+            </div>
+          </div>
+          <div class="row marg">
+            <div class="col-md-6 p-0">
+              <dt v-if="item.mix_size">Габаритные размеры:</dt>
+            </div>
+            <div class="col-md-6 p-0">
+              <dd v-if="item.mix_size" class="parameters">{{item.mix_size}}</dd>
+            </div>
+          </div>
+          <div class="row marg">
+            <div class="col-md-6 p-0">
+              <dt v-if="item.mix_loading_capacity">Минимальная норма загрузки ингредиентов:</dt>
+            </div>
+            <div class="col-md-6 p-0">
+              <dd v-if="item.mix_loading_capacity" class="parameters">{{item.mix_loading_capacity}}</dd>
+            </div>
+          </div>
+          <div class="row marg">
+            <div class="col-md-6 p-0">
+              <dt v-if="item.mix_time">Среднее время замеса одной порции теста:</dt>
+            </div>
+            <div class="col-md-6 p-0">
+              <dd v-if="item.mix_time" class="parameters">{{item.mix_time}}</dd>
+            </div>
+          </div>
+          <div class="row marg">
+            <div class="col-md-6 p-0">
+              <dt v-if="item.mix_rotation">Частота оборотов:</dt>
+            </div>
+            <div class="col-md-6 p-0">
+              <dd v-if="item.mix_rotation" class="parameters">{{item.mix_rotation}}</dd>
+            </div>
+          </div>
+          <div class="row marg">
+            <div class="col-md-6 p-0">
+              <dt v-if="item.mix_bowl_size">Объем дежи:</dt>
+            </div>
+            <div class="col-md-6 p-0">
+              <dd v-if="item.mix_bowl_size" class="parameters">{{item.mix_bowl_size}}</dd>
+            </div>
+          </div>
+          <div class="row marg">
+            <div class="col-md-6 p-0">
+              <dt v-if="item.mix_bowl_height">Установочные номинальные размеры под дежу:</dt>
+            </div>
+            <div class="col-md-6 p-0">
+              <dd v-if="item.mix_bowl_height" class="parameters">{{item.mix_bowl_height}}</dd>
             </div>
           </div>
         </div>
       </dl>
+    </div>
+    <div class="row mb-4 mt-3" v-if="item.mix_description">
+      <h4 class = "mb-2 mt-2" style="color: rgba(0,0,0,.7)">Описание</h4>
+      <div class="col-md mb-3" style = "text-align: left">
+        <h5 style="color:rgba(0,0,0,.7); text-align: justify">{{item.mix_description}}</h5>
+      </div>
+
     </div>
 
   </div>
