@@ -22,6 +22,7 @@
                   <li><router-link class="dropdown-item" :to="{name:'Category', params:{id:'MoldPress'}}">Пресс-формы для ветчин и мяса</router-link></li>
                   <li><router-link class="dropdown-item" :to="{name:'Products', params:{id:'Mixers'}}">Тестомесы</router-link></li>
                   <li><router-link class="dropdown-item" :to="{name:'Category', params:{id:'Baskets'}}">Корзины для расстойки из ротанга</router-link></li>
+                  <li><router-link class="dropdown-item" :to="{name:'Coating'}">Нанесение покрытий</router-link></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -198,11 +199,27 @@
                   <button class="a-side-button ">
                     <div class ="container m-0 p-0">
                       <div class ="row" style="width: inherit;">
-                        <div class="col-md-3 p-0 m-0 mt-4">
+                        <div class="col-md-3 p-0 m-0 mt-3">
                           <img src="/img/dough-proofing.svg" width="25px" height="25px" alt="Иконка корзины для расстойки из ротанга">
                         </div>
                         <div class="col-md-9 p-0 m-0" style="text-align: left">
                           Корзины для расстойки из ротанга
+                        </div>
+                      </div>
+                    </div>
+                  </button>
+                </router-link>
+              </div>
+              <div class="row p-3 a-side">
+                <router-link class="p-0 m-0" :to="{name:'Coating'}">
+                  <button class="a-side-button ">
+                    <div class ="container m-0 p-0">
+                      <div class ="row" style="width: inherit;">
+                        <div class="col-md-3 p-0 m-0">
+                          <img src="/img/coating.svg" width="25px" height="25px" alt="Иконка нанесение покрытий">
+                        </div>
+                        <div class="col-md-9 p-0 m-0" style="text-align: left">
+                          Нанесение покрытий
                         </div>
                       </div>
                     </div>

@@ -6,6 +6,7 @@ import About from "@/views/About";
 import Category from "@/views/Category";
 import Products from "@/views/Products";
 import NotFound from "@/views/NotFound"
+import Coating from "@/views/Coating"
 
 Vue.use(VueRouter)
 
@@ -39,6 +40,11 @@ const routes = [
     path: '*',
     name: 'NotFound',
     component: NotFound
+  },
+  {
+    path: 'coating',
+    name: 'Coating',
+    component: Coating
   }
 
 ]

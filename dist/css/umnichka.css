@@ -65,3 +65,6 @@ dd {
     align-items: flex-end;
 
 }
+.max-height{
+    height: 100%;
+}
