@@ -42,7 +42,7 @@ const routes = [
     component: NotFound
   },
   {
-    path: 'coating',
+    path: '/coating',
     name: 'Coating',
     component: Coating
   }

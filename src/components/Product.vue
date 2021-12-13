@@ -164,10 +164,6 @@
       <h4 class = "mb-2 mt-2 px-3" style="color: rgba(0,0,0,.7)">Описание</h4>
       <div class="col-md mb-3" style = "text-align: left">
         <h5 style="color:rgba(0,0,0,0.7); text-align: justify" class="px-2">{{item.mix_description}}</h5>
-        <h5 style="color:rgba(0,0,0,0.7); text-align: justify" class="px-2" v-if="item.mix_description1">{{item.mix_description1}}</h5>
-        <h5 style="color:rgba(0,0,0,0.7); text-align: justify" class="px-2" v-if="item.mix_description2">{{item.mix_description2}}</h5>
-        <h5 style="color:rgba(0,0,0,0.7); text-align: justify" class="px-2" v-if="item.mix_description3">{{item.mix_description3}}</h5>
-        <h5 style="color:rgba(0,0,0,0.7); text-align: justify" class="px-2" v-if="item.mix_description4">{{item.mix_description4}}</h5>
       </div>
 
     </div>
